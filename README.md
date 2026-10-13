@@ -8,7 +8,7 @@
 
 | Проект | Задача и решение | Технологии |
 | --- | --- | --- |
-| [project-1 · ИИ-система поддержки](project-1) | Полный цикл автоматизации первой линии: LLM, RAG, изображения, helpdesk, передача оператору, оценка качества, аналитика и инфраструктура | n8n, JavaScript, PostgreSQL, Qdrant, Docker, Prometheus, Grafana |
+| [project-1 · ИИ-система поддержки](project-1) | Автоматизация первой линии: LLM, RAG, изображения, helpdesk, передача оператору, оценка качества, аналитика и инфраструктура. Пилот Chatwoot и харденинг сервера и контейнеров | n8n, JavaScript, PostgreSQL, Qdrant, Docker, Prometheus, Grafana, Chatwoot |
 | [project-2 · ИИ-поддержка и инструменты операторов](project-2) | ИИ-ассистент, подключение внутренних данных, API и панель поддержки, программные проверки поведения и мониторинг | n8n, TypeScript, Node.js, Fastify, React, PostgreSQL, Qdrant |
 | [portfolio · Website](portfolio) | Двуязычный интерфейс с интерактивными навыками, WebGL и поддержкой reduced motion | Next.js, React, TypeScript, Three.js, GSAP |
 | [pet-project · WebChat](pet-project) | Локальная демонстрация чата: каналы, сообщения, клавиатурная отправка и индикатор набора | React, TypeScript, Vite, Vitest |

@@ -7,7 +7,7 @@
 WebGL-анимации и поддержка `prefers-reduced-motion`.
 
 ```sh
-cd projects/portfolio-web
+cd portfolio
 npm ci
 npm run dev
 ```

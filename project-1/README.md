@@ -15,7 +15,7 @@ flowchart LR
 
 ```sh
 npm run demo:rag
-node --test projects/rag-pipeline/pipeline.test.mjs
+node --test project-1/pipeline.test.mjs
 ```
 
 `demo.cjs` выполняет Code nodes локально с минимальной имитацией контекста n8n.

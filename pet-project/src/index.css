@@ -1,0 +1,41 @@
+:root { font-family: system-ui, sans-serif; color: #e9edf4; background: #13171e; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+button, textarea, select { font: inherit; }
+button, select { cursor: pointer; }
+button { color: inherit; background: #252e3c; border: 1px solid #40516a; border-radius: 6px; padding: 10px 14px; }
+button:disabled { cursor: default; opacity: .5; }
+button:focus-visible, textarea:focus-visible, select:focus-visible { outline: 2px solid #a4c8ff; outline-offset: 3px; }
+.chat-demo { max-width: 1100px; margin: auto; padding: 24px; }
+.demo-header { margin-bottom: 24px; }
+.demo-header strong { font-size: 24px; margin-right: 16px; }
+.demo-header span, .demo-header p, .empty { color: #abb9cc; }
+.chat-layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); border: 1px solid #354052; border-radius: 10px; overflow: hidden; }
+.channels { background: #1a202b; padding: 18px; }
+.channels h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .1em; color: #abb9cc; margin-top: 24px; }
+.channels button { display: block; width: 100%; text-align: left; margin-bottom: 8px; background: transparent; border-color: transparent; }
+.channels button[aria-pressed="true"] { background: #304767; border-color: #526e95; }
+.conversation { padding: 24px; min-width: 0; }
+.conversation h1 { font-size: 20px; margin: 0 0 24px; }
+.messages { min-height: 240px; max-height: 45vh; overflow-y: auto; overflow-wrap: anywhere; }
+.message { margin: 0 0 20px; }
+.message strong { color: #a4c8ff; font-size: 14px; }
+.message p { margin: 6px 0; line-height: 1.6; white-space: pre-wrap; }
+.typing-area { min-height: 32px; }
+.typing { font-size: 13px; color: #abb9cc; }
+.typing-dots span { display: inline-block; width: 4px; height: 4px; margin-left: 4px; background: currentColor; border-radius: 50%; }
+.composer > label { display: block; margin: 8px 0; font-size: 13px; }
+textarea { width: 100%; min-height: 84px; resize: vertical; color: inherit; background: #1a202b; border: 1px solid #40516a; border-radius: 6px; padding: 12px; }
+.composer-controls { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; }
+.composer-controls label { font-size: 13px; }
+select { margin-left: 12px; padding: 8px; border-radius: 6px; background: #252e3c; color: inherit; }
+.typing-toggle { color: #abb9cc; line-height: 1.6; }
+@media (max-width: 640px) {
+  .chat-demo { padding: 12px; }
+  .chat-layout { grid-template-columns: 1fr; }
+  .channels { border-bottom: 1px solid #354052; }
+  .channels section { display: flex; flex-wrap: wrap; gap: 6px; }
+  .channels h2 { width: 100%; margin: 8px 0; }
+  .channels button { width: auto; margin: 0; }
+  .conversation { padding: 18px; }
+}

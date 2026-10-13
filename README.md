@@ -8,9 +8,10 @@
 
 | Проект | Задача и решение | Технологии |
 | --- | --- | --- |
-| [RAG pipeline](projects/rag-pipeline) | Подготовка Markdown-документов для векторного поиска: чанки, восстановление метаданных после embedding, группировка и стабильные ID точек | JavaScript, n8n, Qdrant |
-| [Support toolkit](projects/support-toolkit) | Независимые строительные блоки API: валидация входных данных и хеширование паролей | TypeScript, Node.js, scrypt |
-| [Portfolio web](projects/portfolio-web) | Двуязычный интерфейс с интерактивными навыками, WebGL и поддержкой reduced motion | Next.js, React, TypeScript, Three.js, GSAP |
+| [project-1 · RAG pipeline](project-1) | Подготовка Markdown-документов для векторного поиска: чанки, восстановление метаданных после embedding, группировка и стабильные ID точек | JavaScript, n8n, Qdrant |
+| [project-2 · Support toolkit](project-2) | Независимые строительные блоки API: валидация входных данных и хеширование паролей | TypeScript, Node.js, scrypt |
+| [portfolio · Website](portfolio) | Двуязычный интерфейс с интерактивными навыками, WebGL и поддержкой reduced motion | Next.js, React, TypeScript, Three.js, GSAP |
+| [pet-project · WebChat](pet-project) | Локальная демонстрация чата: каналы, сообщения, клавиатурная отправка и индикатор набора | React, TypeScript, Vite, Vitest |
 
 ## Запуск
 
@@ -21,7 +22,14 @@ npm test
 npm run demo:rag
 ```
 
-Инструкции запуска интерфейса находятся в его README.
+Инструкции запуска интерфейсов находятся в [portfolio/README.md](portfolio/README.md)
+и [pet-project/README.md](pet-project/README.md). Их зависимости устанавливаются отдельно.
+
+Тесты WebChat после установки зависимостей:
+
+```sh
+npm run test:pet
+```
 
 ## Что демонстрирует репозиторий
 

@@ -7,8 +7,9 @@
     "node": ">=24"
   },
   "scripts": {
-    "test": "node --test projects/support-toolkit/*.test.mjs projects/rag-pipeline/*.test.mjs",
-    "demo:rag": "node projects/rag-pipeline/demo.cjs"
+    "test": "node --test project-2/*.test.mjs project-1/*.test.mjs",
+    "demo:rag": "node project-1/demo.cjs",
+    "test:pet": "npm --prefix pet-project test"
   },
   "type": "module"
 }

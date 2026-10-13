@@ -9,7 +9,7 @@
   результата через `timingSafeEqual`.
 
 ```sh
-node --test projects/support-toolkit/toolkit.test.mjs
+node --test project-2/toolkit.test.mjs
 ```
 
 Команда запускается из корня репозитория на Node.js 24+.
